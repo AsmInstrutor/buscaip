@@ -7,7 +7,7 @@ ___Linux:___
 ```bash
 apt-get install git && apt-get install jq && apt-get install curl
 
-git clone
+git clone https://github.com/AsmInstrutor/buscaip.git
 
 cd buscaip
 
@@ -31,7 +31,7 @@ apt install jq
 
 apt install curl
 
-git clone
+git clone https://github.com/AsmInstrutor/buscaip.git
 
 cd buscaip
 
