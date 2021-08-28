@@ -5,7 +5,8 @@ ___Painel para realizar busca por IP escolhido___
 
 ___Linux___
 
-'''bash
+'''
+bash
 apt-get install git
 apt-get install jq && apt-get install curl
 git clone
@@ -20,7 +21,8 @@ bash painelip.sh
 
 ___Termux___
 
-'''bash
+'''
+bash
 apt install git
 apt install jq && apt install curl
 git clone 
