@@ -6,9 +6,13 @@ Painel para realizar busca de um ip determinado pelo usuário!
 ___Linux:___
 ```bash
 apt-get install git && apt-get install jq && apt-get install curl
+
 git clone
+
 cd buscaip
+
 chmod +x painelip.sh
+
 ./painelip.sh
 
 
