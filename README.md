@@ -4,6 +4,7 @@ ___Painel para realizar busca por IP escolhido___
 # Modo de uso:
 
 ___Linux___
+
 '''bash
 apt-get install git
 apt-get install jq && apt-get install curl
