@@ -1,0 +1,24 @@
+#!/bin/bash
+
+clear
+
+printf "ip:"
+curl -s https://ipinfo.io/$2 | jq -r '.ip'
+printf "Hostname:"
+curl -s https://ipinfo.io/$2 | jq -r '.hostname'
+printf "Cidade:"
+curl -s https://ipinfo.io/$2 | jq -r '.city'
+printf "Região:"
+curl -s https://ipinfo.io/$2 | jq -r '.region'
+printf "Estado:"
+curl -s https://ipinfo.io/$2 | jq -r '.country'
+printf "Localização:"
+curl -s https://ipinfo.io/$2 | jq -r '.loc'
+printf "Organização:"
+curl -s https://ipinfo.io/$2 | jq -r '.org'
+printf "Postal:"
+curl -s https://ipinfo.io/$2 | jq -r '.postal'
+printf "Fuso Horario:"
+curl -s https://ipinfo.io/$2 | jq -r '.timezone'
+
+exit
