@@ -14,7 +14,7 @@ ___Welcome to Painel of IP___
  ___Agora que já instalamos tudo, vamos para o próximo passo!___
     
     cd $HOME
-    git clone
+    git clone https://github.com/AsmInstrutor/buscaip.git
     cd buscaip
     chmod +x shell-ip
     ./shell-ip <ip para consultar>
